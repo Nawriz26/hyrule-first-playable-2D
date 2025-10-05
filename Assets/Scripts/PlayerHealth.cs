@@ -5,6 +5,8 @@ public class PlayerHealth : MonoBehaviour
     public int maxHP = 3;
     int hp;
     Vector3 lastCheckpoint;
+    public int CurrentHP => hp;
+
 
     void Start()
     {
